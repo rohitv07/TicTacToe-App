@@ -26,6 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle"
             tools:ignore="NestedWeights" />
 
@@ -34,6 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
@@ -41,6 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
@@ -56,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle"
             tools:ignore="NestedWeights" />
 
@@ -64,6 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
@@ -71,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
@@ -86,6 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle"
             tools:ignore="NestedWeights" />
 
@@ -94,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
@@ -101,11 +109,13 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:layout_weight="1"
+            android:textSize="100sp"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/ResetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset"
