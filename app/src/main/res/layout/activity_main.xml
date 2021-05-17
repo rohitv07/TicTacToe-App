@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#97f8ff"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,6 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:layout_margin="25dp"
+        android:textColor="#000000"
         android:layout_gravity="center_horizontal"
         android:text="@string/player_name"/>
 
@@ -28,7 +30,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
         <Button
             android:id="@+id/button2"
@@ -36,7 +38,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
         <Button
             android:id="@+id/button3"
@@ -44,7 +46,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
     </LinearLayout>
 
@@ -60,7 +62,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle"
+            android:layout_margin="5dp"
             tools:ignore="NestedWeights" />
 
         <Button
@@ -69,7 +71,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
         <Button
             android:id="@+id/button6"
@@ -77,7 +79,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
     </LinearLayout>
 
@@ -93,7 +95,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle"
+            android:layout_margin="5dp"
             tools:ignore="NestedWeights" />
 
         <Button
@@ -102,7 +104,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
         <Button
             android:id="@+id/button9"
@@ -110,7 +112,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="5dp" />
 
     </LinearLayout>
 
@@ -118,10 +120,11 @@
         android:id="@+id/ResetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reset"
+        android:text="@string/reset"
         android:textSize="25sp"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="50dp"/>
+        android:layout_margin="50dp"
+        style="@style/Platform.MaterialComponents.Light"/>
 
 
 </LinearLayout>
