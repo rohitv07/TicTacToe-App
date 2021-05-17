@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/Display_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -27,8 +28,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:textSize="100sp"
-            style="?android:attr/buttonBarButtonStyle"
-            tools:ignore="NestedWeights" />
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/button2"
